@@ -1,5 +1,5 @@
 {
-    "name": "@onio/frontend",
+    "name": "@unio/frontend",
     "version": "0.0.1",
     "description": "Onio PWA",
     "main": "index.ts",

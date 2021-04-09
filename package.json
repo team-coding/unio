@@ -1,6 +1,6 @@
 {
     "private": "true",
-    "name": "onio",
+    "name": "unio",
     "author": "Alessandro Menezes, Fabrício Schimidt, José Siqueira",
     "scripts": {
         "start:server": "cd packages/backend && yarn start:dev"
