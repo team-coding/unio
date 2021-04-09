@@ -1,0 +1,30 @@
+{
+    "moduleFileExtensions": [
+        "js",
+        "json",
+        "ts"
+    ],
+    "rootDir": "./",
+    "testRegex": ".*\\.spec\\.ts$",
+    "testPathIgnorePatterns": [
+        "./node_modules/",
+        "./packages/backend/node_modules",
+        "./packages/frontend/node_modules"
+    ],
+    "transform": {
+        "^.+\\.(t|j)s$": "ts-jest"
+    },
+    "collectCoverageFrom": [
+        "**/*.(t|j)s"
+    ],
+    "coverageDirectory": "../coverage",
+    "testEnvironment": "node",
+    "moduleNameMapper": {
+        "@/(.*)": "<rootDir>/packages/$1",
+        "@root/(.*)": "<rootDir>/packages/$1",
+        "@backend/(.*)": "<rootDir>/packages/backend/src/$1",
+        "@backend-core/(.*)": "<rootDir>/packages/backend/src/domain/$1",
+        "@backend-common/(.*)": "<rootDir>/packages/backend/src/domain/shared/common/$1",
+        "@shared/(.*)": "<rootDir>/packages/backend/src/domain/shared/$1"
+    }
+}
