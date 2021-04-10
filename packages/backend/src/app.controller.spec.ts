@@ -20,3 +20,5 @@ describe('AppController', () => {
     });
   });
 });
+
+console.log('test');
