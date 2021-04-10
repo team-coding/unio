@@ -1,6 +1,6 @@
 module.exports = {
   moduleFileExtensions: ['js', 'json', 'ts'],
-  rootDir: '<rootDir>',
+  rootDir: './',
   testRegex: '.*\\.spec\\.ts$',
   testPathIgnorePatterns: [
     './node_modules/',
