@@ -1,5 +1,4 @@
-# started with `npx husky-init && yarn` command
 #!/bin/sh
 . "$(dirname "$0")/_/husky.sh"
 
-yarn tsc --noEmit
+npm test
