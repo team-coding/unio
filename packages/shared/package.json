@@ -1,12 +1,9 @@
 {
-    "name": "@unio/frontend",
+    "name": "@unio/shared",
     "version": "0.0.1",
     "description": "Onio PWA",
     "main": "index.ts",
     "author": "Alessandro Menezes, Fabrício Schimidt, José Siqueira",
     "license": "MIT",
-    "private": false,
-    "dependencies": {
-        "@unio/backend": "0.0.1"
-    }
+    "private": false
 }
