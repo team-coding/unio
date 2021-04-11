@@ -1,4 +1,4 @@
 #!/bin/sh
 . "$(dirname "$0")/_/husky.sh"
 
-$dirname/.git/hooks/commit-msg 
+.git/hooks/commit-msg 
