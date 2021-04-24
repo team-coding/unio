@@ -17,11 +17,11 @@
 ---
 
 #### Graph Database 
-We are using graph database
+We are using graph database [See full image here](./readme/graph-database.png)
 
 ![image](./readme/exam.png)
 
 
-Also using domain driving desing, typescript and nestjs
+Also using domain driving design, typescript and nestjs
 
 > Join us and contribute to the project
