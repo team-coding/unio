@@ -1,6 +1,7 @@
 # Unio 
 
 > An **open source** web and mobile application that aims to automate the creation, application and management of paper and online multiple choices exams.
+> We are looking for collaborators! We need front-end and back-end coders, as UX/UI designers as well. Get in touch with us if you want to contribute to this project. 
 
 **Unio** will be a free plataform to create questions about any subjects, and use the questions in online and paper exams.
 
