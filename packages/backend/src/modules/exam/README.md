@@ -13,6 +13,8 @@
       "ends_at":"Date"
    },
    "shared_with_user_id":["String"],
+   "shared_by":"String",
+   "shared_in_group":["String"],
    "questions":[
       {
          "id":"String",
