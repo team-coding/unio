@@ -6,12 +6,19 @@
    "id":"String",
    "name":"String",
    "avatar":"String",
-   "email":"String",
+   "email":["String"], *
    "password":"String",
-   "mobile_phone":"String",
+   "mobile_phone":["String"], *
    "cpf":"String",
    "created_at":"Date",
    "updated_at":"Date",
+   "account_verified": "String"
+   "owner_of": ["Groups"], *
+   "member_of"; ["Groups"], *
+   "admin_of": ["Groups"], *
+   "author_of_questions":["Questions"], *
+   "author_of_exams": ["Exams"], *
+   "user_plan": "String", *
    "terms_accepted":[
       {
       "ip": "String",
@@ -37,5 +44,6 @@
 - Request data 
 - Accept Terms
 - Request reset password 
-- Confirm email 
+- Confirm emails and mobile phones * 
 - Change avatar
+- Change plan *
