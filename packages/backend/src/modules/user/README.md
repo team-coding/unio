@@ -14,7 +14,7 @@
    "updated_at":"Date",
    "account_verified": "String"
    "owner_of": ["Groups"], *
-   "member_of"; ["Groups"], *
+   "member_of": ["Groups"], *
    "admin_of": ["Groups"], *
    "author_of_questions":["Questions"], *
    "author_of_exams": ["Exams"], *
