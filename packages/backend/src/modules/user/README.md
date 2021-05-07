@@ -13,12 +13,59 @@
    "created_at":"Date",
    "updated_at":"Date",
    "account_verified": "String",
-   "owner_of": ["Groups"], *
-   "member_of": ["Groups"], *
-   "admin_of": ["Groups"], *
+   "owner_of": [  *
+      { "group": "String",
+        "status": "String",
+        "creation_date": "Date",
+        "end_date": "Date",
+        "cession_date": "Date",
+        "ceased_to": "String",
+        "members": [
+          { "id": "String",
+            "status": "String",
+            "join_date": "Date",
+            "leave_date": "Date",
+          }
+        ]
+      }  
+   ], 
+   "member_of": [   *
+      { "group": "String",
+        "status": "String",
+        "join_date": "Date",
+        "leave_date": "Date"
+      } 
+   ],
+   "admin_of": [   *
+      { "group": "String",
+        "status": "String",
+        "join_date": "Date",
+        "leave_date": "Date",
+        "invited_admins": [{"id": "String"}],
+        "members": [
+          { "id": "String",
+            "status": "String",
+            "join_date": "Date",
+            "leave_date": "Date",
+          }
+        ]
+      } 
+   ],
    "author_of_questions":["Questions"], *
    "author_of_exams": ["Exams"], *
-   "user_plan": "String", *
+   "payment_plan": [  *
+      { 
+      "plan": "String",
+      "status": "String",
+      "payment_date": "Date",
+      "payment_means": "String",
+      "payment_status": "String",
+      "receipt": "String",
+      "start_date": "Date",
+      "end_date": "Date",
+      "renewal_date": "Date"
+      }
+   ],    
    "terms_accepted":[
       {
       "ip": "String",
