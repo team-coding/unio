@@ -6,7 +6,7 @@
    "id":"String",
    "name":"String",
    "avatar":"String",
-   "email":["String"], *
+   "email":["String"], * teste
    "password":"String",
    "mobile_phone":["String"], *
    "cpf":"String",
