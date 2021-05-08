@@ -91,6 +91,6 @@
 - Request data 
 - Accept Terms
 - Request reset password 
-- Confirm emails and mobile phones * 
+- Confirm emails and mobile phones  
 - Change avatar
-- Change plan *
+- Change plan
