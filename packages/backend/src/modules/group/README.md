@@ -13,11 +13,38 @@
       "updated_at":"String",
       "expires_at":"Date"
    },
-   "participants":[
-      {
-         "user_id":"String",
-         "is_admin":"Boolean"
-      }
+   "owner":  
+            { "group_name": "String",
+               "status": "String",
+              "creation_date": "Date",
+              "end_date": "Date",
+              "cession_date": "Date",
+              "ceased_to": "String",
+            } , 
+   "member": [
+          { "user_id": "String",
+            "user_name": "String",
+            "status": "String",
+            "is_owner": "Boolean",
+            "is_admin": "Boolean",
+            "join_date": "Date",
+            "leave_date": "Date"
+          }
+        ],
+    "admin: [
+      { "group_name": "String",
+        "status": "String",
+        "join_date": "Date",
+        "leave_date": "Date",
+        "invited_admins": [{"user_id": "String"}],
+        "members": [             * deixa ou tira?
+          { "id": "String",
+            "status": "String",
+            "join_date": "Date",
+            "leave_date": "Date",
+          }
+        ]
+      } 
    ],
    "created_at":"Date",
    "updated_at":"Date",
