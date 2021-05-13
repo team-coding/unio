@@ -13,44 +13,6 @@
    "created_at":"Date",
    "updated_at":"Date",
    "account_verified": "String",
-   "owner_of": [
-      { "group": "String",
-        "status": "String",
-        "creation_date": "Date",
-        "end_date": "Date",
-        "cession_date": "Date",
-        "ceased_to": "String",
-        "member": [
-          { "id": "String",
-            "status": "String",
-            "join_date": "Date",
-            "leave_date": "Date",
-          }
-        ]
-      }  
-   ], 
-   "member": [
-      { "group": "String",
-        "status": "String",
-        "join_date": "Date",
-        "leave_date": "Date"
-      } 
-   ],
-   "admin_of": [
-      { "group": "String",
-        "status": "String",
-        "join_date": "Date",
-        "leave_date": "Date",
-        "invited_admins": [{"id": "String"}],
-        "members": [
-          { "id": "String",
-            "status": "String",
-            "join_date": "Date",
-            "leave_date": "Date",
-          }
-        ]
-      } 
-   ],
    "author_of_questions":["Questions"],
    "author_of_exams": ["Exams"],
    "payment_plan": [
