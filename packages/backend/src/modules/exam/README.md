@@ -12,24 +12,23 @@
               "teacher": "String",
               "subject": "String",
               "class": "String",
-              "marks": "Number",
-              "questions": "Number",
+              "exam_marks": "Number",
+              "questions_qty": "Number",
               "date": "String",
               "time": "String",
-              "place": "String",
-              "candidate_number": "String",
               "location": "String"
               },
-     "candidate": {"name": "String",
+   "candidate": {"name": "String",
                    "registration_number": "String",
                    "signature": "String"},
-     "instructions": "String"
-   },
+   "instructions": "String",
    "value":"Number",
    "owner_id":"String",
-   "timeout_to_respond":{
-      "start_at":"Date",
-      "ends_at":"Date"
+   "timeout_to_completion":{
+      "start_time":"Time",
+      "end_time":"Time"
+      "start_date":"Date",
+      "end_date":"Date"
    },
    "shared_with_user_id":["String"],
    "shared_by":"String",
@@ -39,15 +38,11 @@
          "id":"String",
          "value":"Number",
          "position":"Number"
-      },
-      {
-         "id":"String",
-         "value":"Number",
-         "position":"Number"
       }
    ],
    "created_at":"Date",
    "updated_at":"Date",
+   "archived": "Boolean"
 }
 
 ```
@@ -57,16 +52,17 @@
 - Create Exam
 - Update Exam
 - Delete Exam
-- List Exam
+- List Exam *?
 - Import Exam
+- Export Exam
 - Import Questions
 - Export Questions
-- Export Exam
+- Archive Exam
 
 Observation:
 
 The exams can be shared with students or groups, but it will always reference the user.
 Options can be ordered.
-Each option has an individual grade, but cannot exceed the total of the exam.
+Each option has an individual mark, but cannot exceed the total marks of the exam.
 The exam can have a custom header.
 The test should only be available within the defined date range.
