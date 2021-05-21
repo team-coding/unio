@@ -5,11 +5,11 @@
 {
    "id":"String",
    "keywords":"String",
-   "description":"String",
+   "statement":"String",
    "author_id":"String",
    "is_public":"Boolean",
    "comments_id":["String"],
-   "marks": ["String"],
+   "tags": ["String"],
    "alternatives":[
       {
          "id":"String",
@@ -17,7 +17,7 @@
          "statement":"String",
          "position":"Number",
          "comments": "String",
-         "is_answer":"Boolean",
+         "correct_alt":"Boolean",
          "position_fixed": "Boolean"
       }
    ],
@@ -32,11 +32,8 @@
 
 - Create question 
 - Copy question 
+- Archive question
 - Import question 
 - Export question
-- Remove option from question  
-- Change title 
-- Change description
-- Comment on question 
-- Define a question as rigth question 
-- Change questions position (ordernation)
+- Edit question (Delete alternative from question, Change title (?), Change statement, Comment on question, Define right alternative, Change fixed alternative position)
+- Make public
