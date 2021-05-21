@@ -31,9 +31,9 @@
 ### Methods 
 
 - Create question 
+- Update question (Delete alternative from question, Change title (?), Change statement, Comment on question, Define right alternative, Change fixed alternative position)
 - Copy question 
 - Archive question
 - Import question 
 - Export question
-- Edit question (Delete alternative from question, Change title (?), Change statement, Comment on question, Define right alternative, Change fixed alternative position)
 - Make public
