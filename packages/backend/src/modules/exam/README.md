@@ -26,7 +26,7 @@
    "owner_id":"String",
    "timeout_to_completion":{
       "start_time":"Time",
-      "end_time":"Time"
+      "end_time":"Time",
       "start_date":"Date",
       "end_date":"Date"
    },
@@ -55,8 +55,6 @@
 - List Exam *?
 - Import Exam
 - Export Exam
-- Import Questions
-- Export Questions
 - Archive Exam
 
 Observation:
