@@ -4,7 +4,7 @@
 
 {
    "id":"String",
-   "image":"String",
+   "image":"String", *?
    "title":"String",
    "owner_id":"String",
    "invite":{
