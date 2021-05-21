@@ -4,25 +4,24 @@
 
 {
    "id":"String",
-   "title":"String",
+   "keywords":"String",
    "description":"String",
    "author_id":"String",
    "is_public":"Boolean",
    "comments_id":["String"],
-   "options":[
+   "marks": ["String"],
+   "alternatives":[
       {
          "id":"String",
-         "description":"String",
+         "number_of_alternatives": "Number",
+         "statement":"String",
          "position":"Number",
-         "is_right_option":"Boolean",
-      },
-      {
-         "id":"String",
-         "description":"String",
-         "position":"Number",
-         "is_right_option":"Boolean",
+         "comments": "String"
+         "is_answer":"Boolean",
+         "position_fixed": "Boolean"
       }
    ],
+   "archived": "Boolean",
    "created_at":"Date",
    "updated_at":"Date",
 }
