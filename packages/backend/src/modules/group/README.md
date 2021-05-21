@@ -31,7 +31,7 @@
             "leave_date": "Date"
           }
         ],
-    "admin: [
+    "admin": [
       { "group_name": "String",
         "status": "String",
         "join_date": "Date",
