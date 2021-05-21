@@ -16,7 +16,7 @@
          "number_of_alternatives": "Number",
          "statement":"String",
          "position":"Number",
-         "comments": "String"
+         "comments": "String",
          "is_answer":"Boolean",
          "position_fixed": "Boolean"
       }
