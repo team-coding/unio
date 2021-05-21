@@ -5,7 +5,26 @@
 {
    "id":"String",
    "title":"String",
-   "header":"JSON",
+   "header": {"logo" : "Image",
+              "institution": "String",
+              "department": "String",
+              "grade": "String",
+              "teacher": "String",
+              "subject": "String",
+              "class": "String",
+              "marks": "Number",
+              "questions": "Number",
+              "date": "String",
+              "time": "String",
+              "place": "String",
+              "candidate_number": "String",
+              "location": "String"
+              },
+     "candidate": {"name": "String",
+                   "registration_number": "String",
+                   "signature": "String"},
+     "instructions": "String"
+   },
    "value":"Number",
    "owner_id":"String",
    "timeout_to_respond":{
