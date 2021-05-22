@@ -4,7 +4,7 @@
 
 {
    "id":"String",
-   "image":"String",
+   "image":"String", *?
    "title":"String",
    "owner_id":"String",
    "invite":{
@@ -31,7 +31,7 @@
             "leave_date": "Date"
           }
         ],
-    "admin: [
+    "admin": [
       { "group_name": "String",
         "status": "String",
         "join_date": "Date",
