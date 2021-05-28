@@ -10,6 +10,7 @@
    "is_public":"Boolean",
    "comments_id":["String"],
    "tags": ["String"],
+   "keywords": ["string"],
    "alternatives":[
       {
          "id":"String",
@@ -21,9 +22,9 @@
          "position_fixed": "Boolean"
       }
    ],
-   "archived": "Boolean",
    "created_at":"Date",
    "updated_at":"Date",
+   "archived": "Boolean"
 }
 
 ```
