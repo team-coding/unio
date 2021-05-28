@@ -13,8 +13,8 @@
    "created_at":"Date",
    "updated_at":"Date",
    "shared_with": ["String"], *
-   "superior_markers": Marker,
-   "inferior_markers": Marker
+   "superior_markers": "Marker", *
+   "inferior_markers": "Marker" *
 }
 
 ```
