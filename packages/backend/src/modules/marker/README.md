@@ -12,20 +12,20 @@
    "exams_id":["String"],
    "created_at":"Date",
    "updated_at":"Date",
-   "superior_markers": Marker
+   "shared_with": ["String"], *
+   "superior_markers": Marker,
    "inferior_markers": Marker
 }
 
 ```
-
 ### Methods 
 
-- Create Marker
-- Delete Marker
-- Add question to marker
+- Create Marker *
+- Update Marker *
+- Delete Marker *
+- Share Marker *
+- Import Marker *
+- Export Marker *
+- Add question to marker *
+- Add exam to marker *
 - Add url to marker *?
-- Add exam to marker
-- Remove question from marker
-- Remove url from marker *?
-- Remove exam from marker
-- 
