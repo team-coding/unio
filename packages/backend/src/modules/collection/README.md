@@ -11,6 +11,8 @@
    "shared_with": ["String"], *
    "created_at":"Date", *
    "updated_at":"Date", *
+   "superior_collection": "Collection", *
+   "inferior_collections": "Collection", *
    "url":"String" *?
 }
 
