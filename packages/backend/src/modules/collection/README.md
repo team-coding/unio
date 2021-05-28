@@ -26,4 +26,5 @@
 - Share Collection *
 - Import Collection *
 - Export Collection *
+- Add Search to Collection *
 
