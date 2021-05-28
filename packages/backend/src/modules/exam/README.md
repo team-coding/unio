@@ -5,7 +5,7 @@
 {
    "id":"String",
    "title":"String",
-   "header": {"logo" : "Image",
+   "header": {"logo" : "String",
               "institution": "String",
               "department": "String",
               "grade": "String",
@@ -19,14 +19,15 @@
               "location": "String"
               },
    "candidate": {"name": "String",
-                   "registration_number": "String",
-                   "signature": "String"},
+                 "registration_number": "String",
+                 "signature": "String"},
    "instructions": "String",
-   "value":"Number",
+   "maximum_mark":"Number",
    "owner_id":"String",
    "timeout_to_completion":{
+      "duration":"Time",
       "start_time":"Time",
-      "end_time":"Time",
+      "end_time": "Time",
       "start_date":"Date",
       "end_date":"Date"
    },

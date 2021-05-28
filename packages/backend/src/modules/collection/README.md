@@ -4,14 +4,27 @@
 
 {
    "id":"String",
-   "user_id":"String",
-   "date_time":"Date",
-   "url":"String"
+   "title":"String", *
+   "questions_id":["String"], *
+   "exams_id":["String"], *
+   "owner_id":"String", *
+   "shared_with": ["String"], *
+   "created_at":"Date", *
+   "updated_at":"Date", *
+   "superior_collection": "Collection", *
+   "inferior_collections": "Collection", *
+   "url":"String" *?
 }
 
 ```
 
 ### Method 
 
-- Record browsing history
-- Clear browsing history
+- Create Collection *
+- Update Collection *
+- Delete Collection *
+- Share Collection *
+- Import Collection *
+- Export Collection *
+- Add Search to Collection *
+
